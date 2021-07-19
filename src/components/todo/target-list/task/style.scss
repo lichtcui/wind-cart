@@ -1,0 +1,9 @@
+.task {
+	display: flex;
+	align-items: center;
+	width: max-content;
+
+	> input {
+		margin-right: 0.5rem;
+	}
+}

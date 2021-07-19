@@ -1,0 +1,21 @@
+.hide {
+	display: none;
+}
+
+.input {
+	max-width: 80%;
+}
+
+.details {
+	overflow: hidden;
+	line-height: 2rem;
+	padding: 1rem;
+
+	> div {
+		cursor: pointer;
+
+		&:hover {
+			color: #f93;
+		}
+	}
+}

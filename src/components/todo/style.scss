@@ -1,0 +1,11 @@
+.list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #e2e2e2;
+	gap: 1px;
+	border: 1px solid #e2e2e2;
+
+	> div {
+		background-color: #ffffff;
+	}
+}
