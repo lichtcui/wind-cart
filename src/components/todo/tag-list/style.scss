@@ -3,12 +3,12 @@
 	align-items: center;
 	justify-content: center;
 	padding: 2rem;
-}
 
-.urgent {
-	grid-column: 2/3;
-}
+	&.urgent {
+		grid-column: 2/3;
+	}
 
-.not-important {
-	grid-row: 3;
+	&.not-important {
+		grid-row: 3;
+	}
 }
