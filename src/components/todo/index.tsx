@@ -3,15 +3,19 @@ import React from "react"
 import "./style.scss"
 import TagList from "./tag-list"
 import TargetList from "./target-list"
+import ChartList from "./chart-list"
 
 const Todo = () => {
 	const list = useSelector(state => state.todo)
 
 	return (
-		<div className="list">
-			<TagList />
-			<TargetList list={list} />
-		</div>
+		<React.Fragment>
+			<div className="list">
+				<TagList />
+				<TargetList list={list} />
+			</div>
+			{/* <ChartList list={list} /> */}
+		</React.Fragment>
 	)
 }
 

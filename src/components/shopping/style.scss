@@ -1,0 +1,33 @@
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 8px;
+	gap: 8px;
+
+	> div {
+		border: 1px solid #e2e2e2;
+		padding: 8px;
+		overflow: hidden;
+	}
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 8px;
+
+	.title {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.btn {
+		border: 1px solid #e2e2e2;
+		padding: 4px 8px;
+	}
+}
+
+.ant-dropdown-menu-title-content {
+	text-align: center;
+}

@@ -1,0 +1,24 @@
+.cart-product {
+	display: flex;
+	width: 200px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-content {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cart-actions {
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+
+.cart-btn {
+	display: block;
+	width: max-content;
+	margin-left: 8px;
+}

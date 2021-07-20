@@ -1,6 +1,7 @@
 import React from "react"
 import Todo from "./components/todo"
+import Shopping from "./components/shopping"
 
-const App = () => <Todo />
+const App = () => <Shopping />
 
 export default App
